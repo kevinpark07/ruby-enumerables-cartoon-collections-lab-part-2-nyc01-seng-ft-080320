@@ -24,5 +24,4 @@ def find_valid_calls(planeteer_calls)
   i = 0 
   planeteer_calls.find{|string| 
   string == valid_calls[i]}
-  i+=1 
 end
